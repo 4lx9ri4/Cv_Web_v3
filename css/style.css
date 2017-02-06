@@ -74,6 +74,7 @@ span {
         align-items: center;
         width: 100%;
         height: 5em;
+        padding: 1%;
         background-color: #171717;
         color: #fff;
     }
@@ -85,7 +86,8 @@ span {
         font-size: 2em;
     }
     /**** NAVIGATION ****/
-    nav {
+    /*<!-- NAV & MENU BURGER comment: conflit with bxslider js -->*/
+    /*nav {
         display: none;
         z-index: 100;
         width: 30%;
@@ -125,7 +127,7 @@ span {
         font-family: "Electrick";
         background-color: #222222;
         border-bottom: 3px solid #333333;
-    }
+    }*/
     /**** MAIN ****/
     main {
         display: -webkit-box;
@@ -176,7 +178,7 @@ span {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        width: 100%;
+        width: 70%;
         height: auto;
         background-color: #171717;
     }
@@ -224,8 +226,8 @@ span {
     #photo {
         position: absolute;
         bottom: 20%;
-        right: 15%;
-        width: 70%;
+        right: 20%;
+        width: 60%;
         height: 40%;
         border: 3px solid #0E8EC4;
         box-shadow: 5px 5px 10px;
@@ -465,7 +467,8 @@ span {
       font-size: 2.500em;
     }
     /**** NAVIGATION ****/
-    nav {
+    /*<!-- NAV & MENU BURGER comment: conflit with bxslider js -->*/
+    /*nav {
         display: none;
         z-index: 100;
         width: 80%;
@@ -503,7 +506,7 @@ span {
         font-family: "Electrick";
         background-color: #222222;
         border-bottom: 3px solid #333333;
-    }
+    }*/
     /**** MAIN ****/
     main {
         display: -webkit-box;
@@ -554,7 +557,7 @@ span {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        width: 100%;
+        width: 70%;
         height: 6em;
         background-color: #171717;
     }
@@ -607,10 +610,10 @@ span {
     }
     #photo {
         position: absolute;
-        bottom: 30%;
-        right: 30%;
-        width: 40%;
-        height: 40%;
+        bottom: 20%;
+        right: 20%;
+        width: 60%;
+        height: 60%;
         border: 3px solid #0E8EC4;
         box-shadow: 5px 5px 10px;
     }
@@ -759,10 +762,10 @@ span {
     }
     #contact-form2 {
         position: absolute;
-        bottom: 30%;
-        right: 10%;
+        bottom: 35%;
+        right: 15%;
         width: 70%;
-        height: 60%;
+        height: 35%;
         border: 3px solid #0E8EC4;
         box-shadow: 5px 5px 10px;
         font-family: "Electrick";
@@ -849,7 +852,8 @@ span {
         font-size: 3em;
     }
     /**** NAVIGATION ****/
-    nav {
+    /*<!-- NAV & MENU BURGER comment: conflit with bxslider js -->*/
+    /*nav {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -891,7 +895,7 @@ span {
         font-family: "Electrick";
         background-color: #222222;
         border-bottom: 3px solid #333333;
-    }
+    }*/
     /**** MAIN ****/
     main {
         display: -webkit-box;
@@ -942,7 +946,7 @@ span {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        width: 100%;
+        width: 70%;
         height: 4em;
         background-color: #171717;
     }
@@ -1152,9 +1156,9 @@ span {
     #contact-form2 {
         position: absolute;
         bottom: 30%;
-        right: 15%;
-        width: 70%;
-        height: 60%;
+        right: 35%;
+        width: 30%;
+        height: 35%;
         border: 3px solid #0E8EC4;
         box-shadow: 5px 5px 10px;
         font-family: "Electrick";

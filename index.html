@@ -26,29 +26,34 @@
         <header>
             <!-- TITRE -->
             <h1>TUIL Alexandre - Web Dev</h1>
+            <!-- NAV & MENU BURGER comment: conflit with bxslider js -->
             <!-- MENU BURGER -->
-            <div class="btn_burger">
-                <i class="fa fa-bars" aria-hidden="true"></i>
-            </div>
+            <!-- <div class="btn_burger"> -->
+                <!-- <i class="fa fa-bars" aria-hidden="true"></i> -->
+            <!-- </div> -->
             <!-- NAVIGATION -->
-            <nav>
-                <ul class="listNav">
-                    <i class="fa fa-times" aria-hidden="true"></i>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#forma">Formations</a></li>
-                    <li><a href="#comp">Compétences</a></li>
-                    <li><a href="#work">Work</a></li>
+            <!-- <nav> -->
+                <!-- <ul class="listNav"> -->
+                    <!-- <i class="fa fa-times" aria-hidden="true"></i> -->
+                    <!-- <li><a href="#about">About</a></li> -->
+                    <!-- <li><a href="#forma">Formations</a></li> -->
+                    <!-- <li><a href="#comp">Compétences</a></li> -->
+                    <!-- <li><a href="#work">Work</a></li> -->
                     <!-- <li><a href="#contact">Contact</a></li> -->
-                    <li><a href="#"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-                </ul>
-            </nav>
+                    <!-- <li><a href="#"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li> -->
+                <!-- </ul> -->
+            <!-- </nav> -->
+            <div class="outside">
+                <i class="fa fa-camera" aria-hidden="true"></i>
+                <p><span id="slider-prev"></span> | <span id="slider-next"></span></p>
+            </div>
         </header>
         <!-- MAIN -->
         <main>
             <!-- SLIDER BXSLIDER -->
             <ul class="bxslider">
                 <!-- ABOUT -->
-                <li class="apropos" id="about">
+                <li id="about" class="apropos">
                     <h2>About</h2>
                     <p>Actuellement en formation de developper Web & Mobile d'une durée de 6 mois, je souhaite évoluer et m'investir à travers ce métier passionnant où l'on se trouve en perpétuel apprentissage. J'ai pour objectif d'appronfondir mes connaissances
                         afin d'acquérir le savoir nécessaire pour devenir un professionel confirmé.</br>Avant d'entreprendre la formation Simplon j'ai longtemps enchaîné les petits boulots alimentaires, Hôte de caisse, Employé en charcuterie/Fromagerie,
@@ -60,7 +65,7 @@
                     </article>
                 </li>
                 <!-- FORMATION -->
-                <li class="containForma" id="forma">
+                <li id="forma" class="containForma">
                     <h2>Formations</h2>
                     <article class="formation">
                         <h3>SEPT 2016 à aujourd'hui:</h3>
@@ -81,54 +86,54 @@
                     </article>
                 </li>
                 <!-- COMPETENCES -->
-                <li class="compet" id="comp">
+                <li id="comp" class="compet">
                     <h2>Compétences</h2>
                     <article class="iconcomp">
                         <img src="images/html-5-logo.svg" alt="">
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
+                        <i class="fa fa-star-half fa-spin" aria-hidden="true"></i>
                     </article>
 
                     <article class="iconcomp">
-                        <img src="images/logocss3.png" alt="">
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star-half" aria-hidden="true"></i>
+                        <img src="images/css-3.svg" alt="">
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
+                        <i class="fa fa-star-half fa-spin" aria-hidden="true"></i>
                     </article>
 
                     <article class="iconcomp">
-                        <img src="images/logojs.png" alt="">
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <img src="images/jquery-logo.svg" alt="">
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
                     </article>
 
                     <article class="iconcomp">
-                        <img src="images/logojquery.png" alt="">
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <img src="images/java-script.svg" alt="">
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
                     </article>
 
                     <article class="iconcomp">
-                        <img src="images/logophp.gif" alt="">
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <img src="images/php-file.svg" alt="">
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
                     </article>
 
                     <article class="iconcomp">
-                        <img src="images/logogit.png" alt="">
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <img src="images/github-sign.svg" alt="">
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
+                        <i class="fa fa-star fa-spin" aria-hidden="true"></i>
                     </article>
                 </li>
                 <!-- WORK -->
@@ -173,18 +178,14 @@
                 </fieldset>
             </form>
         </main>
-        <div class="outside">
-            <i class="fa fa-camera" aria-hidden="true"></i>
-            <p><span id="slider-prev"></span> | <span id="slider-next"></span></p>
-        </div>
         <!-- FOOTER -->
         <footer>
 
             <article class="iconFooter">
-                <a href="https://github.com/4lx9ri4" target="_blank"><i class="fa fa-github fa-spin" aria-hidden="true"></i></a>
-                <a href="https://www.facebook.com/alexandre.tuil.9" target="_blank"><i class="fa fa-facebook-official fa-spin" aria-hidden="true"></i></a>
-                <a href="https://twitter.com/4lx9ri4" target="_blank"><i class="fa fa-twitter fa-spin" aria-hidden="true"></i></a>
-                <i class="fa fa-envelope fa-spin" aria-hidden="true"></i>
+                <a href="https://github.com/4lx9ri4" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/alexandre.tuil.9" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/4lx9ri4" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
             </article>
         </footer>
     </div>
