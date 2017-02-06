@@ -43,11 +43,11 @@ h3 {
 
 p {
     font-family: "Typewcond";
-    color: #fff;
+    color: #000;
 }
 
 span {
-    font-family: "Level";
+    font-family: "Electrick";
     color: #0E8EC4;
 }
 
@@ -87,10 +87,10 @@ span {
     /**** NAVIGATION ****/
     nav {
         display: none;
-        margin-top: 26em;
         z-index: 100;
         width: 30%;
-        height: 26.875em;
+        height: 10em;
+        margin-top: 6em;
     }
     .listNav {
         display: -webkit-box;
@@ -106,7 +106,7 @@ span {
         -ms-flex-align: start;
         align-items: flex-start;
         padding: 2%;
-        height: 26.875em;
+        height: 10em;
         font-size: 0.875em;
         list-style: none;
     }
@@ -141,13 +141,13 @@ span {
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
-        height: 23em;
-        background-color: #444444;
+        height: 25em;
+        background-color: rgba(68, 68, 68, 0.5);
     }
     /**** BXSLIDER ****/
     .bxslider {
         width: 100%;
-        height: 23em;
+        height: 25em;
     }
     .bxslider li {
         display: -webkit-box;
@@ -163,10 +163,9 @@ span {
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
-        height: 23em;
+        height: 25em;
         font-size: 0.750em;
         text-indent: 0.5em;
-        border: 2px solid #171717;
     }
     .outside {
         display: -webkit-box;
@@ -196,7 +195,10 @@ span {
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
-        height: 23em;
+        height: 25em;
+    }
+    .apropos p{
+      width: 90%;
     }
     .infoAbout {
         display: -webkit-box;
@@ -221,6 +223,8 @@ span {
     }
     #photo {
         position: absolute;
+        bottom: 20%;
+        right: 15%;
         width: 70%;
         height: 40%;
         border: 3px solid #0E8EC4;
@@ -237,7 +241,7 @@ span {
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
-        height: 23em;
+        height: 25em;
     }
     .formation {
         display: -webkit-box;
@@ -280,7 +284,7 @@ span {
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
-        height: 23em;
+        height: 25em;
     }
     .compet h2 {
         margin: 1%;
@@ -324,7 +328,7 @@ span {
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
-        height: 23em;
+        height: 25em;
     }
     form {
         width: 100%;
@@ -348,8 +352,7 @@ span {
         align-items: center;
         width: 99%;
         height: 20em;
-        border: 2px solid #0E8EC4;
-        font-family: "ACROTSRG";
+        font-family: "Electrick";
         color: #fff;
     }
     input {
@@ -371,10 +374,13 @@ span {
     }
     #contact-form2 {
         position: absolute;
+        bottom: 20%;
+        right: 15%;
         width: 70%;
         height: 70%;
         border: 3px solid #0E8EC4;
         box-shadow: 5px 5px 10px;
+        font-family: "Electrick";
         background-color: #171717;
     }
     #contact-form2 .fieldset {
@@ -431,7 +437,7 @@ span {
         -ms-flex-pack: start;
         justify-content: flex-start;
         width: 100%;
-        height: 56.063em;
+        height: 65em;
     }
     /**** HEADER ****/
     header {
@@ -462,7 +468,6 @@ span {
     /**** NAVIGATION ****/
     nav {
         display: none;
-        margin-top: 26em;
         z-index: 100;
         width: 80%;
     }
@@ -479,8 +484,8 @@ span {
         -webkit-box-align: start;
         -ms-flex-align: start;
         align-items: flex-start;
+        width: 80%;
         padding: 2%;
-        height: 26.875em;
         font-size: 1em;
         list-style: none;
     }
@@ -515,13 +520,13 @@ span {
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
-        height: 30em;
-        background-color: #444444;
+        height: 40em;
+        background-color: rgba(68, 68, 68, 0.5);
     }
     /**** BXSLIDER ****/
     .bxslider {
         width: 100%;
-        height: 30em;
+        height: 40em;
     }
     .bxslider li {
         display: -webkit-box;
@@ -537,10 +542,9 @@ span {
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
-        height: 30em;
+        height: 40em;
         font-size: 1em;
         text-indent: 0.5em;
-        border: 2px solid #171717;
     }
     .outside {
         display: -webkit-box;
@@ -552,7 +556,7 @@ span {
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
-        height: 4em;
+        height: 6em;
         background-color: #171717;
     }
     .outside .fa {
@@ -573,7 +577,7 @@ span {
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
-        height: 30em;
+        height: 40em;
     }
     .apropos p {
         width: 80%;
@@ -604,8 +608,10 @@ span {
     }
     #photo {
         position: absolute;
+        bottom: 30%;
+        right: 30%;
         width: 40%;
-        height: 50%;
+        height: 40%;
         border: 3px solid #0E8EC4;
         box-shadow: 5px 5px 10px;
     }
@@ -620,7 +626,7 @@ span {
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
-        height: 30em;
+        height: 40em;
     }
     .formation {
         display: -webkit-box;
@@ -664,7 +670,7 @@ span {
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
-        height: 30em;
+        height: 40em;
     }
     .compet h2 {
         margin: 1%;
@@ -708,7 +714,7 @@ span {
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
-        height: 30em;
+        height: 40em;
     }
     form {
         width: 100%;
@@ -732,7 +738,6 @@ span {
         align-items: center;
         width: 99%;
         height: 20em;
-        border: 2px solid #0E8EC4;
         font-family: "ACROTSRG";
         color: #fff;
     }
@@ -755,10 +760,13 @@ span {
     }
     #contact-form2 {
         position: absolute;
+        bottom: 30%;
+        right: 10%;
         width: 70%;
         height: 60%;
         border: 3px solid #0E8EC4;
         box-shadow: 5px 5px 10px;
+        font-family: "Electrick";
         background-color: #171717;
     }
     #contact-form2 .fieldset {
@@ -782,7 +790,7 @@ span {
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
-        height: 5em;
+        height: 10em;
         color: #fff;
         background-color: #171717;
     }
@@ -844,8 +852,7 @@ span {
     /**** NAVIGATION ****/
     nav {
         display: flex;
-        margin-top: 26em;
-        width: 80%;
+        width: 70%;
     }
     .fa-bars, .fa-times {
         display: none;
@@ -862,10 +869,9 @@ span {
         justify-content: space-around;
         -webkit-box-align: start;
         -ms-flex-align: start;
-        align-items: flex-start;
+        align-items: center;
         padding: 2%;
-        width: 80%;
-        height: 20.875em;
+        width: 70%;
         font-size: 1.125em;
         list-style: none;
     }
@@ -901,7 +907,7 @@ span {
         align-items: center;
         width: 100%;
         height: 45em;
-        background-color: #444444;
+        background-color: rgba(68, 68, 68, 0.5);
     }
     /**** BXSLIDER ****/
     .bxslider {
@@ -988,6 +994,8 @@ span {
     }
     #photo {
         position: absolute;
+        bottom: 20%;
+        right: 35%;
         width: 30%;
         height: 70%;
         border: 3px solid #0E8EC4;
@@ -1116,8 +1124,7 @@ span {
         align-items: center;
         width: 99%;
         height: 20em;
-        border: 2px solid #0E8EC4;
-        font-family: "ACROTSRG";
+        font-family: "Electrick";
         color: #fff;
     }
     input {
@@ -1140,10 +1147,13 @@ span {
     }
     #contact-form2 {
         position: absolute;
+        bottom: 30%;
+        right: 15%;
         width: 70%;
         height: 60%;
         border: 3px solid #0E8EC4;
         box-shadow: 5px 5px 10px;
+        font-family: "Electrick";
         background-color: #171717;
     }
     #contact-form2 .fieldset {
