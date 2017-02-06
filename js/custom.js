@@ -34,7 +34,7 @@ $(document).ready(function(){
      et safari (webkit) */
   $('html, body')
      // on arrête toutes les animations en cours
-     .stop()
+     .stop();
      /* on fait maintenant l'animation vers le haut (scrollTop) vers
       notre ancre target */
     //  .animate({scrollTop: $(target).offset().top}, 1000 );
