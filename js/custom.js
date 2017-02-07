@@ -73,7 +73,16 @@ $(document).ready(function(){
 
     //**** CONTACT FOOTER ****//
     $('.fa-envelope, .fa-window-close').click(function(){
-        $('#contact-form2').toggle('explode', 'slow');
+        $('#contact-form2').toggle('bounce', 'slow');
+    });
+
+    //**** TYPED JS ****//
+    $('.animeType').typed({
+      strings: ['TUIL Alexandre - Web Dev / Integrator'],
+      contentType: 'html',
+      typeSpeed: 20,
+      showCursor: true,
+      cursorChar: '<img src="images/chocowalk.gif">'
     });
 
 });

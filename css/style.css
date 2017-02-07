@@ -78,7 +78,7 @@ span {
         background-color: #171717;
         color: #fff;
     }
-    h1 {
+    .animeType {
         font-family: "Electrick";
         font-size: 1em;
     }
@@ -456,7 +456,7 @@ span {
         background-color: #171717;
         color: #fff;
     }
-    h1 {
+    .animeType {
         font-family: "Electrick";
         font-size: 1.500em;
     }
@@ -844,7 +844,7 @@ span {
         background-color: #171717;
         color: #fff;
     }
-    h1 {
+    .animeType {
         font-family: "Electrick";
         font-size: 1.500em;
     }
