@@ -499,6 +499,13 @@ span {
         height: 3em;
         height: auto;
     }
+
+    footer img {
+        position: absolute;
+        width: 50%;
+        height: 20%;
+        bottom: 0;
+    }
 }
 
 @media screen and (min-width: 701px) and (max-width: 1280px) {
@@ -928,6 +935,12 @@ span {
     footer .fa {
         font-size: 2.500em;
     }
+    footer img {
+        position: absolute;
+        width: 50%;
+        height: 20%;
+        bottom: 2%;
+    }
 }
 
 @media screen and (min-width: 1281px) {
@@ -1355,5 +1368,10 @@ span {
     }
     footer .fa {
         font-size: 2.500em;
+    }
+    footer img {
+        position: absolute;
+        width: 50%;
+        bottom: 2%;
     }
 }
