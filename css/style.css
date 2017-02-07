@@ -10,6 +10,7 @@
     src: url("../fonts/typewcond_regular.otf");
 }
 
+
 /**** GENERAL ****/
 
 * {
@@ -47,7 +48,7 @@ h3 {
 
 p {
     font-family: "Typewcond";
-    color: #000;
+    color: #fff;
 }
 
 span {
@@ -65,6 +66,7 @@ span {
         -ms-flex-direction: column;
         flex-direction: column;
         width: 100%;
+        height: 25em;
     }
     /**** HEADER ****/
     header {
@@ -76,11 +78,13 @@ span {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        width: 100%;
         height: 5em;
         padding: 1%;
         background-color: #171717;
         color: #fff;
+    }
+    #slider-prev, #slider-next {
+        font-size: 0.625em;
     }
     .animeType {
         font-family: "Electrick";
@@ -148,7 +152,7 @@ span {
         align-items: center;
         width: 100%;
         height: 25em;
-        background-color: rgba(68, 68, 68, 0.5);
+        background-color: rgba(0, 0, 0, 0.8);
     }
     /**** BXSLIDER ****/
     .bxslider {
@@ -202,9 +206,13 @@ span {
         align-items: center;
         width: 100%;
         height: 25em;
+        background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgabout.jpg");
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgabout.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    .apropos p{
-      width: 90%;
+    .apropos p {
+        width: 100%;
     }
     .infoAbout {
         display: -webkit-box;
@@ -217,9 +225,8 @@ span {
         -webkit-box-pack: start;
         -ms-flex-pack: start;
         justify-content: flex-start;
-        text-align: center;
+        text-align: left;
         width: 100%;
-        height: auto;
     }
     .infoAbout p {
         margin: 1%;
@@ -241,6 +248,10 @@ span {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
         -ms-flex-pack: distribute;
         justify-content: space-around;
         -webkit-box-align: center;
@@ -248,6 +259,25 @@ span {
         align-items: center;
         width: 100%;
         height: 25em;
+        background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgforma.jpg");
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgforma.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    section {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
     }
     .formation {
         display: -webkit-box;
@@ -271,8 +301,8 @@ span {
         margin: 1%;
     }
     .formation img {
-        width: 60%;
-        height: 2.5em;
+        width: 40%;
+        height: 1.5em;
     }
     /**** COMPETENCES ****/
     .compet {
@@ -291,6 +321,10 @@ span {
         align-items: center;
         width: 100%;
         height: 25em;
+        background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgcomp.jpg");
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgcomp.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .compet h2 {
         margin: 1%;
@@ -319,6 +353,12 @@ span {
         margin: 5%;
     }
     /**** WORK ****/
+    .work {
+      background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgwork.jpg");
+      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgwork.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
     /**** CONTACT ****/
     #contact {
         display: -webkit-box;
@@ -335,6 +375,10 @@ span {
         align-items: center;
         width: 100%;
         height: 25em;
+        background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgcontact.jpg");
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgcontact.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     form {
         width: 100%;
@@ -467,8 +511,8 @@ span {
     h2 {
         font-size: 3em;
     }
-    header .fa{
-      font-size: 2.500em;
+    header .fa {
+        font-size: 2.500em;
     }
     /**** NAVIGATION ****/
     /*<!-- NAV & MENU BURGER comment: conflit with bxslider js -->*/
@@ -526,13 +570,13 @@ span {
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
-        height: 40em;
-        background-color: rgba(68, 68, 68, 0.5);
+        height: 50em;
+        background-color: rgba(0, 0, 0, 0.8);
     }
     /**** BXSLIDER ****/
     .bxslider {
         width: 100%;
-        height: 40em;
+        height: 50em;
     }
     .bxslider li {
         display: -webkit-box;
@@ -548,7 +592,7 @@ span {
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
-        height: 40em;
+        height: 50em;
         font-size: 1em;
         text-indent: 0.5em;
     }
@@ -583,7 +627,11 @@ span {
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
-        height: 40em;
+        height: 50em;
+        background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgabout.jpg");
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgabout.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .apropos p {
         width: 80%;
@@ -626,6 +674,10 @@ span {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -ms-flex-pack: distribute;
         justify-content: space-around;
         -webkit-box-align: center;
@@ -633,8 +685,12 @@ span {
         align-items: center;
         width: 100%;
         height: 40em;
+        background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgforma.jpg");
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgforma.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    .formation {
+    section {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -642,16 +698,30 @@ span {
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
         flex-direction: row;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
-        height: 7.666em;
+        height: 20em;
+    }
+    .formation {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 40%;
+        height: 12em;
         text-align: center;
-        border-bottom: 2px solid #171717;
     }
     .formation p {
         margin: 1%;
@@ -677,6 +747,10 @@ span {
         align-items: center;
         width: 100%;
         height: 40em;
+        background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgcomp.jpg");
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgcomp.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .compet h2 {
         margin: 1%;
@@ -705,6 +779,12 @@ span {
         margin: 10%;
     }
     /**** WORK ****/
+    .work {
+      background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgwork.jpg");
+      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgwork.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
     /**** CONTACT ****/
     #contact {
         display: -webkit-box;
@@ -721,6 +801,10 @@ span {
         align-items: center;
         width: 100%;
         height: 40em;
+        background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgcontact.jpg");
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgcontact.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     form {
         width: 100%;
@@ -916,7 +1000,7 @@ span {
         align-items: center;
         width: 100%;
         height: 45em;
-        background-color: rgba(68, 68, 68, 0.5);
+        background-color: rgba(0, 0, 0, 0.8);
     }
     /**** BXSLIDER ****/
     .bxslider {
@@ -973,9 +1057,10 @@ span {
         align-items: center;
         width: 100%;
         height: 30em;
-        background-image: url("../images/moiskate.png");
-        background-repeat: no-repeat;
+        background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgabout.jpg");
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgabout.jpg");
         background-size: cover;
+        background-repeat: no-repeat;
     }
     .apropos p {
         width: 80%;
@@ -1018,6 +1103,10 @@ span {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -ms-flex-pack: distribute;
         justify-content: space-around;
         -webkit-box-align: center;
@@ -1025,8 +1114,12 @@ span {
         align-items: center;
         width: 100%;
         height: 30em;
+        background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgforma.jpg");
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgforma.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    .formation {
+    section {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -1034,16 +1127,30 @@ span {
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
         flex-direction: row;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
-        height: 7.666em;
+        height: 20em;
+    }
+    .formation {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 40%;
+        height: 12em;
         text-align: center;
-        border-bottom: 2px solid #171717;
     }
     .formation p {
         margin: 1%;
@@ -1069,6 +1176,10 @@ span {
         align-items: center;
         width: 100%;
         height: 30em;
+        background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgcomp.jpg");
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgcomp.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .compet h2 {
         margin: 1%;
@@ -1098,6 +1209,12 @@ span {
         margin: 8%;
     }
     /**** WORK ****/
+    .work {
+      background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgwork.jpg");
+      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgwork.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
     /**** CONTACT ****/
     #contact {
         display: -webkit-box;
@@ -1114,6 +1231,10 @@ span {
         align-items: center;
         width: 100%;
         height: 30em;
+        background-image: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgcontact.jpg");
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bgcontact.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     form {
         width: 100%;
