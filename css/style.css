@@ -83,6 +83,9 @@ span {
         background-color: #171717;
         color: #fff;
     }
+    .outside p img{
+        display: none;
+    }
     #slider-prev, #slider-next {
         font-size: 0.625em;
     }
@@ -348,6 +351,8 @@ span {
         -ms-flex-align: center;
         align-items: center;
         width: 100%;
+        border-bottom: 2px solid #171717;
+        background-color: rgba(68, 68, 68, 0.5);
     }
     .fa-star {
         margin: 5%;
@@ -773,10 +778,12 @@ span {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        width: 50%;
+        width: 92%;
+        border-bottom: 2px solid #171717;
+        background-color: rgba(68, 68, 68, 0.5);
     }
     .fa-star {
-        margin: 10%;
+        margin: 8%;
     }
     /**** WORK ****/
     .work {
@@ -1204,6 +1211,7 @@ span {
         align-items: center;
         width: 60%;
         border-bottom: 2px solid #171717;
+        background-color: rgba(68, 68, 68, 0.5);
     }
     .fa-star {
         margin: 8%;

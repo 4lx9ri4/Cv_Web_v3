@@ -89,7 +89,7 @@ $(document).ready(function(){
       contentType: 'html',
       typeSpeed: 30,
       showCursor: true,
-      cursorChar: '<img src="images/chocowalk.gif">'
+      cursorChar: '<img src="images/chocowalk.gif" title="I Love Gaming!">'
     });
 
     $('.infoAbout').typed({
