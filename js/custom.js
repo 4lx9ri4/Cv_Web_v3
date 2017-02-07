@@ -57,8 +57,8 @@ $(document).ready(function(){
       pager: false,
       nextSelector: '#slider-next',
       prevSelector: '#slider-prev',
-      nextText: '<i class="fa fa-arrow-right" aria-hidden="true"></i>',
-      prevText: '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
+      nextText: '<i class="fa fa-arrow-right" aria-hidden="true"></i> Next',
+      prevText: 'Prev <i class="fa fa-arrow-left" aria-hidden="true"></i>',
       useCSS: false,
       infiniteLoop: true,
       hideControlOnEnd: false,
@@ -71,6 +71,13 @@ $(document).ready(function(){
       $('#photo').toggle('clip');
     });
 
+    //**** ANIM ICONES FOOTER ****//
+    $('.fa-github, .fa-facebook-official, .fa-twitter, .fa-envelope').hover(function(){
+      $(this).addClass('fa-spin');
+    }, function(){
+      $(this).removeClass('fa-spin');
+    });
+
     //**** CONTACT FOOTER ****//
     $('.fa-envelope, .fa-window-close').click(function(){
         $('#contact-form2').toggle('bounce', 'slow');
@@ -78,11 +85,18 @@ $(document).ready(function(){
 
     //**** TYPED JS ****//
     $('.animeType').typed({
-      strings: ['TUIL Alexandre - Web Dev / Integrator'],
+      strings: ['TUIL Alexandre \n- Web Dev / Integrator'],
       contentType: 'html',
-      typeSpeed: 20,
+      typeSpeed: 30,
       showCursor: true,
       cursorChar: '<img src="images/chocowalk.gif">'
+    });
+
+    $('.infoAbout').typed({
+      strings: ["<i class='fa fa-mobile' aria-hidden='true'></i>Tel: 06 58 41 74 90\n<i class='fa fa-envelope-o' aria-hidden='true'></i>Mail:<a href='mailto:tuil_alexandre@hotmail.com@hotmail.com'>tuil_alexandre@hotmail.com</a>\n<i class='fa fa-address-card' aria-hidden='true'></i>Address: 244 rue de l'usine à chaux, 30480, Cendras"],
+      contentType: 'html',
+      startDelay: 2700,
+      showCursor: false
     });
 
 });
