@@ -7,7 +7,9 @@ $(document).ready(function(){
   // $('.fa-times').hide();
   $('#photo').hide();
   $('#contact-form2').hide();
-
+  $('#guitar').hide();
+  $('#manga').hide();
+  $('.hobbies').hide();
   //**** MENU BURGER ****//
   // $('.fa-bars').click(function(){
   //   $('nav').slideToggle('slow', function(){
@@ -89,21 +91,27 @@ $(document).ready(function(){
       contentType: 'html',
       typeSpeed: 30,
       showCursor: true,
-      cursorChar: '<img src="images/chocowalk.gif" title="I Love Gaming!">'
+      cursorChar: '<img src="images/chocowalk.gif" title="I Love Gaming!" id="gaming" style="display: none;">'
     });
 
-    $('.hobbies').typed({
-      strings: ["<p style='color: #0E8EC4;'>Pour en savoir plus sur mes <strong style='background-color: rgba(24,24,24,0.8);'>hobbies</strong>,\n<strong style='background-color: rgba(24,24,24,0.8);'>Placez votre curseur sur les personnages Animés</strong>!</p>"],
-      contentType: 'html',
-      startDelay: 2700,
-      showCursor: false
-    });
+    // $('.hobbies').typed({
+    //   strings: [""],
+    //   contentType: 'html',
+    //   startDelay: 2700,
+    //   showCursor: false
+    // });
 
     $('.infoAbout').typed({
       strings: ["<p><i class='fa fa-mobile' aria-hidden='true'></i> Tel: 06 58 41 74 90\n<i class='fa fa-envelope-o' aria-hidden='true'></i> Mail:<a href='mailto:tuil_alexandre@hotmail.com@hotmail.com'>tuil_alexandre@hotmail.com</a>\n<i class='fa fa-address-card' aria-hidden='true'></i> Address: 244 rue de l'usine à chaux, 30480, Cendras</p>"],
       contentType: 'html',
-      startDelay: 6000,
+      startDelay: 2700,
       showCursor: false
     });
-
+    //**** HOBBIES ****//
+    $('#btn_hobbies').click(function(){
+      $('#gaming').toggle('explode');
+      $('#guitar').toggle('explode');
+      $('#manga').toggle('explode');
+      $('.hobbies').toggle('explode');
+    });
 });

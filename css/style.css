@@ -239,6 +239,23 @@ span {
     .apropos p {
         width: 100%;
     }
+    .hobbies {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    #btn_hobbies {
+      width: 30%;
+      background-color: #0E8EC4;
+      border: none;
+      color: #fff;
+      border-radius: 5%;
+      font-family: "Electrick";
+    }
+    #btn_hobbies:hover{
+      background-color: rgba(14, 142, 196, 0.5);
+    }
      .infoAbout {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -674,6 +691,25 @@ span {
     }
     .apropos p {
         width: 80%;
+    }
+    .hobbies {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    #btn_hobbies {
+      width: 20%;
+      height: 3em;
+      font-size: 1.250em;
+      background-color: #0E8EC4;
+      border: none;
+      color: #fff;
+      border-radius: 5%;
+      font-family: "Electrick";
+    }
+    #btn_hobbies:hover{
+      background-color: rgba(14, 142, 196, 0.5);
     }
     .infoAbout {
         display: -webkit-box;
@@ -1113,6 +1149,30 @@ span {
     }
     .apropos p {
         width: 80%;
+    }
+    .hobbies {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      background-color: rgba(0, 0, 0, 0.5);
+      font-weight: bold;
+    }
+    .hobbies p{
+      color: #0E8EC4;
+    }
+    #btn_hobbies {
+      width: 10%;
+      height: 3em;
+      font-size: 1.250em;
+      background-color: #0E8EC4;
+      border: none;
+      color: #fff;
+      border-radius: 5%;
+      font-family: "Electrick";
+    }
+    #btn_hobbies:hover{
+      background-color: rgba(14, 142, 196, 0.5);
     }
     .infoAbout {
         display: -webkit-box;
