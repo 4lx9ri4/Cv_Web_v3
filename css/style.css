@@ -106,9 +106,6 @@ span {
         background-color: #171717;
         color: #fff;
     }
-    .outside p img{
-        display: none;
-    }
     #slider-prev, #slider-next {
         font-size: 0.625em;
     }
@@ -243,10 +240,17 @@ span {
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 100%;
+      width: 50%;
+      background-color: rgba(0, 0, 0, 0.5);
+      font-weight: bold;
+    }
+    .hobbies p{
+      color: #0E8EC4;
     }
     #btn_hobbies {
-      width: 30%;
+      width: 25%;
+      height: 2em;
+      font-size: 0.375em;
       background-color: #0E8EC4;
       border: none;
       color: #fff;
@@ -255,6 +259,10 @@ span {
     }
     #btn_hobbies:hover{
       background-color: rgba(14, 142, 196, 0.5);
+    }
+    #guitar {
+      width: 3em;
+      height: 4em;
     }
      .infoAbout {
         display: -webkit-box;
@@ -699,7 +707,7 @@ span {
       width: 100%;
     }
     #btn_hobbies {
-      width: 20%;
+      width: 30%;
       height: 3em;
       font-size: 1.250em;
       background-color: #0E8EC4;
