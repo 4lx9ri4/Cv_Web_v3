@@ -41,9 +41,6 @@ body {
       100%{background-position:0% 51%}
     }
 }
-audio {
-  display: none;
-}
 i {
     color: #0E8EC4;
 }
