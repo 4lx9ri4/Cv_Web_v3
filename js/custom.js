@@ -92,10 +92,17 @@ $(document).ready(function(){
       cursorChar: '<img src="images/chocowalk.gif" title="I Love Gaming!">'
     });
 
+    $('.hobbies').typed({
+      strings: ["<p style='color: #0E8EC4; background-color: rgba(24,24,24,0.5);'>Vous voulez en savoir plus sur mes <strong>hobbies</strong>?\nPlacez votre curseur sur les personnages Animés!</p>"],
+      contentType: 'html',
+      startDelay: 2700,
+      showCursor: false
+    });
+
     $('.infoAbout').typed({
       strings: ["<p><i class='fa fa-mobile' aria-hidden='true'></i> Tel: 06 58 41 74 90\n<i class='fa fa-envelope-o' aria-hidden='true'></i> Mail:<a href='mailto:tuil_alexandre@hotmail.com@hotmail.com'>tuil_alexandre@hotmail.com</a>\n<i class='fa fa-address-card' aria-hidden='true'></i> Address: 244 rue de l'usine à chaux, 30480, Cendras</p>"],
       contentType: 'html',
-      startDelay: 2700,
+      startDelay: 6000,
       showCursor: false
     });
 
