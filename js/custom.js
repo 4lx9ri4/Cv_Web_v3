@@ -112,6 +112,6 @@ $(document).ready(function(){
       $('#gaming').toggle('explode');
       $('#guitar').toggle('explode');
       $('#manga').toggle('explode');
-      $('.hobbies').toggle('explode');
+      $('.hobbies').toggle('fade');
     });
 });
