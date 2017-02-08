@@ -93,7 +93,7 @@ $(document).ready(function(){
     });
 
     $('.hobbies').typed({
-      strings: ["<p style='color: #0E8EC4; background-color: rgba(24,24,24,0.5);'>Vous voulez en savoir plus sur mes <strong>hobbies</strong>?\nPlacez votre curseur sur les personnages Animés!</p>"],
+      strings: ["<p style='color: #0E8EC4;'>Pour en savoir plus sur mes <strong style='background-color: rgba(24,24,24,0.8);'>hobbies</strong>,\n<strong style='background-color: rgba(24,24,24,0.8);'>Placez votre curseur sur les personnages Animés</strong>!</p>"],
       contentType: 'html',
       startDelay: 2700,
       showCursor: false
