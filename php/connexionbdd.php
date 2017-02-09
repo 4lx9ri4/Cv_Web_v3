@@ -2,7 +2,7 @@
 	// On définit les 4 variables nécessaires à la connexion MySQL :
 	$hostname = "tuilalexzutuil.mysql.db";
 	$user     = "tuilalexzutuil";
-	$password = "Monkeyzu1904";
+	$password = "Monkeybd1904";
 	$nom_base_donnees = "tuilalexzutuil";
 
 	// Connexion au serveur MySQL
