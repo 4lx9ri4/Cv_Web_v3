@@ -28,7 +28,7 @@ if (!$req)
 echo 'ici ok';
 while ($data = mysqli_fetch_array($req, MYSQLI_ASSOC)) {
 	// on affiche les résultats
-	echo 'Nom : '.$data['name'].'<br />';
+	echo 'Nom : '.$data['nom'].'<br />';
 	echo 'Email : '.$data['email'].'<br />';
 	echo 'Message : '.$data['message']'<br />';
 }
