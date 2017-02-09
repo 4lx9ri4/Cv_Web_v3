@@ -43,14 +43,7 @@
 
 		if ($sent) {
 				// If the message is sent successfully print
-				?>
-				<div id="sent_ok">
-					<p>Votre message a bien été envoyé!</p>
-					<a href='../index.html'>Retour au CV</a>
-					<h6>Page confirmation mail temporaire.</h6>
-				</div>
-				<?php
-				// echo "<p>Votre message a bien été envoyé!</p> <a href='../index.html'>Retour au CV</a>";
+				echo "<div><p>Votre message a bien été envoyé!</p> <a href='../index.html'>Retour au CV</a><h6>Page confirmation envoi message temporaire.</h2></div>";
 			} else {
 				// Display Error Message
 				echo MSG_SEND_ERROR;
