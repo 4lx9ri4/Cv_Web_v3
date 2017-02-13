@@ -86,6 +86,7 @@ $(document).ready(function(){
     });
 
     //**** TYPED JS ****//
+    // Titre
     $('.animeType').typed({
       strings: ['TUIL Alexandre \n- Web Dev / Integrator'],
       contentType: 'html',
@@ -93,14 +94,14 @@ $(document).ready(function(){
       showCursor: true,
       cursorChar: '<img src="images/chocowalk.gif" title="I Love Gaming!" id="gaming" style="display: none;">'
     });
-
+    // About
     $('.infoAbout').typed({
       strings: ["<p><i class='fa fa-mobile' aria-hidden='true'></i> Tel: 06 58 41 74 90\n<i class='fa fa-envelope-o' aria-hidden='true'></i> Mail:<a href='mailto:tuil_alexandre@hotmail.com@hotmail.com'>tuil_alexandre@hotmail.com</a>\n<i class='fa fa-address-card' aria-hidden='true'></i> Address: 244 rue de l'usine à chaux, 30480, Cendras</p>"],
       contentType: 'html',
       startDelay: 2700,
       showCursor: false
     });
-
+    
     //**** HOBBIES ****//
     $('#btn_hobbies').click(function(){
       $('#gaming').toggle('explode');
